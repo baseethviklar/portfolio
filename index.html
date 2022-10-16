@@ -1,0 +1,199 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baseeth Viklar | Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>Baseeth Viklar</h1>
+        <ul class="navigation">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+          <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+  </nav>
+
+
+  <section class="hero" id="about">
+    <img
+      src="image2.jpg"
+      alt="jane-doe"
+      loading="lazy"
+      class="hero-img"
+    />
+    <div class="bio animate__animated animate__shakeX">
+      <h2 class="bio-title">About Me</h2>
+      <p class="bio-text">
+        Hello I'm Baseeth , A web Developer
+
+        I'm a currently Third year IT student in Vidyalankar , Mumbai. SInce I started studying about the Computers , 
+        I was always passionate about the web. Which is what took me this far in this field.
+      </p>
+    </div>
+</section>
+
+  <section class="skills" id="skills">
+    <h2 class="skill-header">My Top Skills</h2>
+
+    <div class="skills-wrapper">
+      <div class="first-set animate__animated animate__pulse">
+        <img
+          src="html.svg"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+        />
+        <img
+          src="css.svg"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+        />
+        <img
+          src="javascript.svg"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+        />
+      </div>
+
+      <div class="second-set animate__animated animate__pulse">
+        <img
+          src="iot.jpg"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+        />
+        <img
+          src="bootstrap.png"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+        />
+        <img
+          src="java2.png"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+        />
+      </div>
+    </div>
+  </section>
+
+
+  <section class="projects" id="projects">
+    <h2 class="projects-title">Some of my Recent Projects</h2>
+    <div class="projects-container">
+      <div class="project-container project-card">
+
+        <h3 class="project-title">Intercom System using IOT</h3>
+        <p class="project-details">
+          Created an Intercom System using using Raspberry PI , Arduino and Other components.
+        </p>
+        <a href="#https://youtu.be/iyB6pqxycDc" target="_blank" class="project-link">Check it Out</a>
+      </div>
+      <div class="project-container project-card">
+      
+        <h3 class="project-title">Camping Website</h3>
+        <p class="project-details">
+          Created a Camping using HTML,CSS ,Javascript, EXpress, Node.JS, MongoDB
+        </p>
+        <a href="yelp.jpeg" target="_blank" class="project-link">Check it Out</a>
+      </div>
+      <div class="project-container project-card">
+       
+        <h3 class="project-title">PortFolio Website</h3>
+        <p class="project-details">
+          Created  using Html , Javascript & css
+        <a href="image3.jpg" target="_blank" class="project-link">Check it Out</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Get In Touch With Me</h2>
+    <div class="contact-form-container">
+      <div class="contact-form">
+        <form action="https://formspree.io/f/xyylngw" method="POST">
+          <div class="form-control">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="sender-name"
+              placeholder="Enter Your Name"
+              class="input-field"
+              required
+            />
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="sender-email"
+              placeholder="Enter Your Email"
+              class="input-field"
+              required
+            />
+          </div>
+          <div class="form-control">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              cols="60"
+              rows="10"
+              placeholder="Enter Your Message"
+              name="message"
+              class="input-field"
+              required
+            ></textarea>
+          </div>
+          <input
+            type="submit"
+            value="Submit"
+            id="submit-btn"
+            class="submit-btn"
+          />
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <div class="socials">
+ 
+    <a href="https://www.instagram.com/baseeth_viklar/" target="_blank"
+      ><img
+        src="instagram.gif"
+        alt="Instagram"
+        loading="lazy"
+        class="socicon"
+    /></a>
+    <a href="https://www.linkedin.com/in/baseeth-viklar-515191208/" target="_blank"
+      ><img
+        src="linked.gif"
+        alt="Linkedin"
+        loading="lazy"
+        class="socicon"
+    /></a>
+    <a href="https://github.com/baseethviklar" target="_blank"
+      ><img src="github.gif" alt="Github" class="socicon"
+    /></a>
+
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+</body>
+</html>
